@@ -12,16 +12,61 @@ This project demonstrates how real-world financial data platforms are designed f
 The system follows a **Medallion Architecture** with Bronze, Silver, and Gold layers.
 
 
-﻿# Retail-Banking-Data-Platform
+Banking Simulator
+↓
+PostgreSQL (Operational DB)
+↓
+Python Ingestion Pipeline
+↓
+Snowflake Data Warehouse
 
-git clone <repo-url>
-cd retail-banking-data-platform
+    Bronze → Raw Data
+    Silver → Cleaned + SCD Models
+    Gold → Analytics Models
 
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+↓
 
-pip install -r requirements.txt
+BI / Analytics
+
+
+---
+
+# Architecture Diagram
+
+<img src="docs/architecture.png" width="800">
+
+---
+
+# Tech Stack
+
+| Layer | Technology |
+|-----|-----|
+Data Simulation | Python |
+Operational Database | PostgreSQL |
+Ingestion Pipeline | Python |
+Data Warehouse | Snowflake |
+Transformation Layer | dbt |
+Analytics | SQL / BI tools |
+
+---
+
+# Project Components
+
+## 1 Banking Transaction Simulator
+
+A Python-based simulator generates realistic banking activity including:
+
+- Salary deposits
+- ATM withdrawals
+- POS purchases
+- Bill payments
+- Transfers
+
+The generated transactions are written into PostgreSQL.
+
+Example tables:
+
+
 
 
 
