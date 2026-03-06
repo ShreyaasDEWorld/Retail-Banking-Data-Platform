@@ -1,14 +1,3 @@
-﻿# Retail-Banking-Data-Platform
-
-git clone <repo-url>
-cd retail-banking-data-platform
-
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
-
 # Retail Banking Data Platform
 
 An end-to-end **data engineering project** simulating a modern retail banking data platform.  
@@ -21,5 +10,18 @@ This project demonstrates how real-world financial data platforms are designed f
 # Architecture Overview
 
 The system follows a **Medallion Architecture** with Bronze, Silver, and Gold layers.
+
+
+﻿# Retail-Banking-Data-Platform
+
+git clone <repo-url>
+cd retail-banking-data-platform
+
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
+pip install -r requirements.txt
+
 
 
