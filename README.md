@@ -31,9 +31,9 @@ BI / Analytics
 
 ---
 
-# Architecture Diagram
+## Architecture
 
-<img src="docs/architecture.png" width="800">
+![Architecture](docs/architecture.png)
 
 ---
 
@@ -243,6 +243,7 @@ Retail-Banking-Data-Platform
 ├── README.md
 ├── .env.example
 └── .gitignore
+
 
 
 
