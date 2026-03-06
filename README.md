@@ -1,3 +1,9 @@
+This project implements an end-to-end retail banking data platform.
+
+It simulates banking transactions, ingests operational data from PostgreSQL,
+and loads it into a Snowflake warehouse using a medallion architecture
+(Bronze → Silver → Gold) for scalable analytics.
+
 # Retail Banking Data Platform
 
 An end-to-end **data engineering project** simulating a modern retail banking data platform.  
@@ -243,6 +249,7 @@ Retail-Banking-Data-Platform
 ├── README.md
 ├── .env.example
 └── .gitignore
+
 
 
 
