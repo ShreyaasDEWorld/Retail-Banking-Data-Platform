@@ -1,0 +1,3 @@
+from simulate_inactivity import simulate_behavioral_churn
+
+simulate_behavioral_churn()
